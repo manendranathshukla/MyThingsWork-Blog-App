@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{%  block content %}
+
+<div class="col-8 offset-2 mb-5 mt-5">
+    <h2>About Me:</h2>
+    <p><img src="{% static 'img/profile.jpeg' %}" alt="..." class="img-fluid" height="200px" width="200px">
+        <strong>
+                <ul>{{ Name }}</ul>
+            
+                <ul>{{ Email }}</ul>
+
+                <ul>{{ Contact }}</ul>
+            </strong>
+                <ul>{{ Intro }}</ul>
+            
+ 
+    </p>
+
+    <h5>Follow me:</h5>
+    <ul class="social-menu">
+            <li class="list-inline-item"><a href="https://www.facebook.com/shubham.shukla.397948"><i class="fa fa-facebook"></i></a></li>
+            
+            <li class="list-inline-item"><a href="https://www.instagram.com/manendrashukla0/?hl=en"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/manendra-nath-shukla-5b5663170/"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/manendranathshukla"><i class="fa fa-github"></i></a></li>
+            
+    </ul>
+</div>
+
+{% endblock content %}
