@@ -23,4 +23,4 @@ pip install pillow
 
 
 Deployed on Pythonanywhere.com 
-www.mythingswork.pythonanywhere.com
+www.mythingswork.herokuapp.com
